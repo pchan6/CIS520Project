@@ -1,0 +1,48 @@
+Tornado_since_from_2009
+select * from BLUDB.GEO_TORNADO AS TORNADO
+where INT(TORNADO.YR)>2009
+
+
+
+
+more detailed information about a warning
+SELECT Warning.*, (
+       SELECT SUM(Customer.INSURANCE_VALUE)
+       FROM GEO_CUSTOMER AS Customer
+  	   WHERE DB2GSE.ST_INTERSECTS(Warning.GEO_DATA,Customer.SHAPE) = 1 SELECTIVITY 0.00001
+       ) AS COUNTY_INSURANCE_VALUE  
+       FROM GEO AS Warning
+
+
+
+
+   SELECT *  FROM SAMPLES.GEO_CUSTOMER WHERE OBJECTID IN (
+        SELECT DISTINCT C.OBJECTID
+      	FROM SAMPLES.GEO_CUSTOMER AS CUSTOMER,
+        GEO AS Warning
+       	WHERE DB2GSE.ST_INTERSECTS(Warning.GEO_DATA,CUSTOMER.SHAPE) = 1 SELECTIVITY 0.00001 
+        )
+
+
+
+
+
+
+SERVICE CREDENTIALS
+DASDB
+
+{
+  "credentials": {
+    "port": 50000,
+    "db": "BLUDB",
+    "username": "************",
+    "ssljdbcurl": "******://******.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;",
+    "host": "******.services.dal.bluemix.net",
+    "https_url": "https://******.services.dal.bluemix.net:******",
+    "dsn": "DATABASE=BLUDB;HOSTNAME=******.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=******;PWD=a******;",
+    "hostname": "******.services.dal.bluemix.net",
+    "jdbcurl": "******://******.services.dal.bluemix.net:50000/BLUDB",
+    "ssldsn": "DATABASE=BLUDB;HOSTNAME=******.services.dal.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=******;PWD=******;Security=SSL;",
+    "uri": "db2://******:******.services.dal.bluemix.net:50000/BLUDB",
+    "password": "******"
+  }
