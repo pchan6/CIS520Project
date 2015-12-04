@@ -1,0 +1,21 @@
+VARIABLE_NAME,SUPPORTED_VALUE,DESCRIPTION,DEFINER
+ST_MaxGeometryArrayElements,,Not supported.,DB2INST1
+ST_MaxGeometryAsText,2147483647,Maximum cardinality of the CHARACTER LARGE OBJECT (CLOB) used for the well-known text representation of an ST_Geometry value.,DB2INST1
+ST_MaxGeometryAsGML,2147483647,Maximum cardinality of the CHARACTER LARGE OBJECT (CLOB) used for the GML representation of an ST_Geometry value.,DB2INST1
+ST_MaxAngleString,,Not supported.,DB2INST1
+ST_MaxAngleAsText,,Not supported.,DB2INST1
+ST_MaxDirectionString,,Not supported.,DB2INST1
+ST_MaxUnitNameLength,128,Maximum length for the character representation of an unit indication.,DB2INST1
+ST_MaxUnitTypeLength,128,Maximum length for the character representation of the type of a unit of measure.,DB2INST1
+ST_MaxCoordsysNameLength,128,Maximum length for the character representation of a coordinate system name.,DB2INST1
+ST_MaxSRSDefinitionLength,2048,Maximum length for the well-known text representation of a coordinate system.,DB2INST1
+ST_MaxDescriptionLength,256,Maximum length for the character representation of a description.,DB2INST1
+ST_MaxGeometryAsBinary,2147483647,Maximum cardinality of the BINARY LARGE OBJECT (BLOB) used for the well-known binary representation of an ST_Geometry value.,DB2INST1
+ST_MaxGeometryAsShape,2147483647,Maximum cardinality of the BINARY LARGE OBJECT (BLOB) used for the ESRI shape representation of an ST_Geometry value.,DB2INST1
+ST_MaxSRSAsText,2048,Maximum cardinality of the CHARACTER LARGE OBJECT (CLOB) used for the well-known text representation of a Spatial Reference System.,DB2INST1
+ST_MaxDirectionAsText,,Not supported.,DB2INST1
+ST_MaxGeocoderNameLength,128,Maximum length for the character representation of a geocoder name.,DB2INST1
+ST_MaxOrganizationNameLength,128,Maximum length for the character representation of an organization name.,DB2INST1
+ST_MaxSRSNameLength,128,Maximum length for the character representation of the identifier of a spatial reference system.,DB2INST1
+ST_MaxVendorNameLength,128,Maximum length for the character representation of a geocoder vendor's name.,DB2INST1
+ST_MaxTypeNameLength,128,Maximum length for the character representation of a type name.,DB2INST1

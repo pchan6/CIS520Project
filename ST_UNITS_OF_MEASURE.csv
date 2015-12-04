@@ -1,0 +1,73 @@
+UNIT_NAME,UNIT_TYPE,CONVERSION_FACTOR,DESCRIPTION,DEFINER
+CLARKE'S FOOT,LINEAR,0.304797265,Assumes Clarke's 1865 ratio of 1 British foot = 0.304797265 French legal metres applies to the international metre.  Used in older Australian, southern African & British West Indian mapping.,DB2INST1
+US SURVEY MILE,LINEAR,1609.3472186944375,Used in USA primarily for public lands cadastral work.,DB2INST1
+KILOMETRE,LINEAR,1000.0,,DB2INST1
+CLARKE'S YARD,LINEAR,0.914391795,=3 Clarke's feet. Assumes Clarke's 1865 ratio of 1 British foot = 0.304797265 French legal metres applies to the international metre.  Used in older Australian, southern African & British West Indian mapping.,DB2INST1
+CLARKE'S LINK,LINEAR,0.2011661949,=1/100 Clarke's chain. Assumes Clarke's 1865 ratio of 1 British foot = 0.304797265 French legal metres applies to the international metre.  Used in older Australian, southern African & British West Indian mapping.,DB2INST1
+BRITISH LINK (SEARS 1922),LINEAR,0.2011676512155263,Uses Sear's 1922 British yard-metre ratio as given by Bomford as 39.370147 inches per metre. Used in East Malaysian and older New Zealand mapping.,DB2INST1
+BRITISH CHAIN (BENOIT 1895 A),LINEAR,20.1167824,Uses Benoit's 1895 British yard-metre ratio as given by Clark as 0.9144992 metres per yard. Used for deriving metric size ellipsiod in Palestine.,DB2INST1
+BRITISH LINK (BENOIT 1895 B),LINEAR,0.2011678249437587,Uses Benoit's 1895 British yard-metre ratio as given by Bomford as 39.370113 inches per metre.  Used in West Malaysian mapping.,DB2INST1
+INDIAN FOOT (1937),LINEAR,0.30479841,Indian Foot = 0.99999566 British feet (A.R.Clarke 1865). British foot taken to be 1895 Benoit value of 12/39.370113m. Rounded to 8 decimal places as 0.30479841.  Used from Bangladesh to Vietnam.  Previously used in India and Pakistan but superseeded.,DB2INST1
+INDIAN FOOT (1975),LINEAR,0.3047995,Indian Foot = 0.99999566 British feet (A.R.Clarke 1865). British yard (3 feet) taken to be J.S.Clarke's 1865 value of 0.9144025m.  Rounded to 8 significant figures as 1 Ind ft=0.3048995m.  Used in India since metrification.,DB2INST1
+STATUTE MILE,LINEAR,1609.344,=5280 feet,DB2INST1
+GOLD COAST FOOT,LINEAR,0.3047997101815088,Used in Ghana and some adjacent parts of British west Africa prior to metrication, except for the metrification of projection defining parameters when British foot (Sears 1922) used.,DB2INST1
+GON,ANGULAR,0.01570796326794895,=pi/200,DB2INST1
+MIL_6400,ANGULAR,9.817477042468094E-4,Angle subtended by 1/6400 part of a circle. Approximates to 1/1000th radian. Note that other approximations (notably 1/6300 circle and 1/6000 circle) also exist.,DB2INST1
+DECIMAL DEGREE,ANGULAR,0.017453292519943278,=pi/180,DB2INST1
+FOOT,LINEAR,0.3048,,DB2INST1
+DEGREE,ANGULAR,0.017453292519943278,=pi/180,DB2INST1
+ARC-SECOND,ANGULAR,4.848136811095355E-6,1/60th arc-minute. =(pi/180) / 3600,DB2INST1
+CENTESIMAL MINUTE,ANGULAR,1.570796326794895E-4,1/100 of a grad and gon. =(pi/200) / 100,DB2INST1
+BIN WIDTH 330 US SURVEY FEET,LINEAR,100.58420116840234,,DB2INST1
+BIN WIDTH 165 US SURVEY FEET,LINEAR,50.29210058420117,,DB2INST1
+BIN WIDTH 82.5 US SURVEY FEET,LINEAR,25.146050292100586,,DB2INST1
+BIN WIDTH 37.5 METRES,LINEAR,37.5,,DB2INST1
+BIN WIDTH 25 METRES,LINEAR,25.0,,DB2INST1
+BIN WIDTH 12.5 METRES,LINEAR,12.5,,DB2INST1
+BIN WIDTH 6.25 METRES,LINEAR,6.25,,DB2INST1
+BIN WIDTH 3.125 METRES,LINEAR,3.125,,DB2INST1
+METER,LINEAR,1.0,,DB2INST1
+KILOMETER,LINEAR,1000.0,,DB2INST1
+FOOT (INTERNATIONAL),LINEAR,0.3048,,DB2INST1
+US FOOT,LINEAR,0.30480060960121924,=12/39.37,DB2INST1
+MODIFIED AMERICAN FOOT,LINEAR,0.304812252984506,=12.0004584/39.37,DB2INST1
+LINK,LINEAR,0.20116619497596572,=7.92/39.370432,DB2INST1
+LINK (BENOIT),LINEAR,0.2011678249437587,=7.92,39.370113,DB2INST1
+CHAIN (BENOIT),LINEAR,20.116782494375872,=792,39.370113,DB2INST1
+CHAIN (SEARS),LINEAR,20.116765121552632,=792,39.370147,DB2INST1
+YARD (INDIAN),LINEAR,0.9143985539701268,=36,39.370141,DB2INST1
+YARD (SEARS),LINEAR,0.9143984146160287,=36,39.370147,DB2INST1
+MINUTE,ANGULAR,2.908882086657213E-4,1/60th degree. =(pi/180) / 60,DB2INST1
+DECIMAL MINUTE,ANGULAR,2.908882086657213E-4,1/60th degree. =(pi/180) / 60,DB2INST1
+SECOND,ANGULAR,4.848136811095355E-6,1/60th arc-minute. =(pi/180) / 3600,DB2INST1
+US SURVEY CHAIN,LINEAR,20.11684023368047,Used in USA primarily for public lands cadastral work.,DB2INST1
+NAUTICAL MILE,LINEAR,1852.0,,DB2INST1
+FATHOM,LINEAR,1.8288,= 6 feet.,DB2INST1
+CLARKE'S CHAIN,LINEAR,20.11661949,=22 Clarke's yards. Assumes Clarke's 1865 ratio of 1 British foot = 0.304797265 French legal metres applies to the international metre.  Used in older Australian, southern African & British West Indian mapping.,DB2INST1
+BRITISH YARD (SEARS 1922),LINEAR,0.9143984146160287,Uses Sear's 1922 British yard-metre ratio as given by Bomford as 39.370147 inches per metre. Used in East Malaysian and older New Zealand mapping.,DB2INST1
+BRITISH FOOT (SEARS 1922),LINEAR,0.3047994715386762,Uses Sear's 1922 British yard-metre ratio as given by Bomford as 39.370147 inches per metre. Used in East Malaysian and older New Zealand mapping.,DB2INST1
+BRITISH CHAIN (SEARS 1922),LINEAR,20.116765121552632,Uses Sear's 1922 British yard-metre ratio as given by Bomford as 39.370147 inches per metre. Used in East Malaysian and older New Zealand mapping.,DB2INST1
+BRITISH YARD (BENOIT 1895 A),LINEAR,0.9143992,Uses Benoit's 1895 British yard-metre ratio as given by Clark as 0.9144992 metres per yard. Used for deriving metric size ellipsiod in Palestine.,DB2INST1
+BRITISH FOOT (BENOIT 1895 A),LINEAR,0.3047997333333333,Uses Benoit's 1895 British yard-metre ratio as given by Clark as 0.9144992 metres per yard. Used for deriving metric size ellipsiod in Palestine.,DB2INST1
+BRITISH LINK (BENOIT 1895 A),LINEAR,0.201167824,Uses Benoit's 1895 British yard-metre ratio as given by Clark as 0.9144992 metres per yard. Used for deriving metric size ellipsiod in Palestine.,DB2INST1
+BRITISH YARD (BENOIT 1895 B),LINEAR,0.9143992042898124,G. Bomford "Geodesy" 2nd edition 1962; after J.S.Clark "Remeasurement of the Old Length Standards"; Empire Survey Review no. 90; 1953,DB2INST1
+BRITISH FOOT (BENOIT 1895 B),LINEAR,0.30479973476327077,Uses Benoit's 1895 British yard-metre ratio as given by Bomford as 39.370113 inches per metre.  Used in West Malaysian mapping.,DB2INST1
+BRITISH CHAIN (BENOIT 1895 B),LINEAR,20.116782494375872,Uses Benoit's 1895 British yard-metre ratio as given by Bomford as 39.370113 inches per metre.  Used in West Malaysian mapping.,DB2INST1
+BRITISH FOOT (1865),LINEAR,0.30480083333333335,Uses Clark's estimate of 1853-1865 British foot-metre ratio of 0.9144025 metres per yard.  Used in 1962 and 1975 estimates of Indian foot.,DB2INST1
+INDIAN FOOT,LINEAR,0.30479951024814694,Indian Foot = 0.99999566 British feet (A.R.Clarke 1865). British yard (= 3 British feet) taken to be J.S.Clarke's 1865 value of 0.9144025 metres.,DB2INST1
+INDIAN FOOT (1962),LINEAR,0.3047996,Indian Foot = 0.99999566 British feet (A.R.Clarke 1865). British yard (3 feet) taken to be J.S.Clarke's 1865 value of 0.9144025m.  Rounded to 8 significant figures with a small error as 1 Ind ft=0.3048996m.  Used in Pakistan since metrification.,DB2INST1
+INDIAN YARD,LINEAR,0.9143985307444408,Indian Foot = 0.99999566 British feet (A.R.Clarke 1865). British yard (= 3 British feet) taken to be J.S.Clarke's 1865 value of 0.9144025 metres.,DB2INST1
+INDIAN YARD (1937),LINEAR,0.91439523,Indian Foot = 0.99999566 British feet (A.R.Clarke 1865). British foot taken to be 1895 Benoit value of 12/39.370113m.  Rounded to 8 decimal places as 0.30469841.  Used from Bangladesh to Vietnam.  Previously used in India and Pakistan but superseeded.,DB2INST1
+INDIAN YARD (1962),LINEAR,0.9143988,Indian Foot = 0.99999566 British feet (A.R.Clarke 1865). British yard (3 feet) taken to be J.S.Clarke's 1865 value of 0.9144025m.  Rounded to 8 significant figures with a small error as 1 Ind ft=0.3048996m.  Used in Pakistan since metrification.,DB2INST1
+RADIAN,ANGULAR,1.0,SI standard unit.,DB2INST1
+ARC-MINUTE,ANGULAR,2.908882086657213E-4,1/60th degree. =(pi/180) / 60,DB2INST1
+GRAD,ANGULAR,0.01570796326794895,=pi/200. In France also abbreviated as "gr".,DB2INST1
+MICRORADIAN,ANGULAR,1.0E-6,rad * 10E-6,DB2INST1
+CENTESIMAL SECOND,ANGULAR,1.570796326794895E-6,1/100 of a centesimal minute or 1/10,000th of a grad and gon. =(pi/200) / 10000,DB2INST1
+LINK (SEARS,LINEAR,0.2011676512155263,=7.92,39.370147,DB2INST1
+DECIMAL SECOND,ANGULAR,4.848136811095355E-6,1/60th arc-minute. =(pi/180) / 3600,DB2INST1
+US SURVEY LINK,LINEAR,0.2011684023368047,Used in USA primarily for public lands cadastral work.,DB2INST1
+GERMAN LEGAL METRE,LINEAR,1.0000135965,Used in Namibia.,DB2INST1
+INDIAN YARD (1975),LINEAR,0.9143985,Indian Foot = 0.99999566 British feet (A.R.Clarke 1865). British yard (3 feet) taken to be J.S.Clarke's 1865 value of 0.9144025m.  Rounded to 8 significant figures as 1 Ind ft=0.3048995m.  Used in India since metrification.,DB2INST1
+US SURVEY FOOT,LINEAR,0.30480060960121924,Used in USA.,DB2INST1
+METRE,LINEAR,1.0,Also known as International metre.,DB2INST1
